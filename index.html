@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=`, initial-scale=1.0">
+        <title>Guess the number</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <button class="btn again">AGAIN!</button>
+            <div class="between">BETWEEN 1 И 20</div>
+        </header>
+
+        <main class="main">
+            <div class="guess">
+                <h1 class="guess_h">GUESS THE NUMBER!</h1>
+                <div class="answer">???</div>
+                <div class="line"></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer_item">
+                <p class="footer_p ">ENTER A NUMBER:</p>
+                <input type='number' class="input_number" step="1" min="1" max="20"></input>
+                <button class="btn check">CHECK!</button>
+            </div>
+            <div class="footer_item">
+                <p class="footer_p lets_guess">LET'S GUESS!</p>
+                <p class="footer_p">SCORE:<span class="score">10</span></p>
+                <p class="footer_p "><span class="the_best">RESULT:</span><span class="result">0</span></p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
